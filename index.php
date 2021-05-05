@@ -1,6 +1,5 @@
 <?php 
     include __DIR__.'/database.php'; 
-  var_dump($database);
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title> Vue Dischi Musicali</title>
 </head>
@@ -25,6 +24,6 @@
 
     </div>
   </div>
-  <script src="script/script.js" charset="utf-8"></script>
+  <script src="script/app.js"></script>
 </body>
 </html>
